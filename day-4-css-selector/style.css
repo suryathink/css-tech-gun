@@ -1,0 +1,23 @@
+/* 
+1. Element selector 
+2. id selector 
+3. class selector  
+*/
+
+/* 1. element selector */
+p {
+  color: red;
+}
+
+/* 2. id selector */
+/* same id can't be used at 2 places */
+#p3 {
+  color: blue;
+}
+
+/* 3. class selector */
+.green-text {
+  color: green;
+}
+
+/* specificity of id is greater  */
