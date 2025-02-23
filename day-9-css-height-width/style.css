@@ -1,0 +1,14 @@
+#div1 {
+  background-color: blueviolet;
+  /* heigth, width, max-width,min-width, min-height, max-heigth takes value in terms of px or percentage */
+  height: 500px;
+  /* percentage it takes always according to parent */
+  width: 70%;
+
+  /*  means at any point it should not having maximum width of this */
+  max-width: 500px;
+  /* max-height: ; */
+  /* min-height: ; */
+
+  /* max-height: ; */
+}
