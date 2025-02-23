@@ -1,0 +1,29 @@
+#bg {
+  /* background-color: yellow; */
+  background-image: url("./images/Screenshot\ from\ 2024-06-29\ 09-08-00.png");
+  /*
+    By default the image is repeating,
+    that is 
+      background: repeat; 
+
+      it repeats the image both on y axis and x axis
+  */
+  /* background: no-repeat; */
+
+  /* background: no-repeat; -> will not repeat the image */
+
+  /* background-repat:repeat-x -> this will repeat image on x axis */
+
+  /* background-repeat: repeat-y; */
+
+  background-repeat: no-repeat;
+
+  /* how to set background position for the image*/
+
+  /* background-position: left; */
+
+  background-size: cover;
+}
+/* body {
+  background-color: red;
+} */
