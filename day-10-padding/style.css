@@ -1,0 +1,12 @@
+#div1 {
+  border: 1px solid red;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  padding-left: 20%;
+
+  /* shortcut */
+
+  /* padding: 50px 20px 10% 20%; */
+  padding: 40px 30px;
+}

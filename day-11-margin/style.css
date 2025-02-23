@@ -1,0 +1,43 @@
+body {
+  border: 5px dotted black;
+}
+
+.div1 {
+  border: 1px solid red;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  padding-left: 20%;
+}
+
+#marg {
+  /* in margin  we can give minus value as well , ut in padding we can't use that */
+  margin-top: -50px;
+  /* margin-top: 50px; */
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 10%;
+
+  /* margin: 25px 12px; */
+  /* margin: 25px 12px 40px 60px; */
+}
+
+/* 
+margin collapse 
+ 
+in case of top and bottom margin, 
+
+when we give margin from top as 30px to div 1 
+
+and again we gave margin top of 50px to div 2
+
+then the Ui will take that margin that has maximum value that is 50px
+
+it will not take 80px
+
+this phenomenoa is called as margin collapse
+
+but the same thing does not happens with margin left and margin right
+
+in margin left and margin right case, it 
+*/
