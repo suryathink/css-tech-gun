@@ -1,0 +1,22 @@
+@font-face {
+  font-family: DangerNight;
+  src: url("./fonts/dangernight-font/Dangernight-vnZ5y.otf");
+}
+
+/* h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+} */
+
+p,
+h1 {
+  font-family: DangerNight;
+}

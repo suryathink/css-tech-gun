@@ -1,0 +1,47 @@
+#text {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  color: black;
+  /* by default text align is left */
+  /* text-align: left; */
+  /* text-align: left/right/center/justify; */
+  /* text-align: justify; */
+
+  /* rtl -> means right to left, used for urdu/ arabic language */
+  /* direction: rtl; */
+
+  /* text-decoration: none/underline/overline; -> none is default */
+
+  text-decoration: none;
+
+  /* text-transform: uppercase/lowercase/capitalize; */
+  text-transform: capitalize;
+  line-height: 30px;
+
+  /* means after 50px text will start */
+  text-indent: 50px;
+
+  /* letter space means space between every letter */
+
+  /* letter-spacing: 10px; */
+
+  /* words spacing - means space between every words */
+
+  word-spacing: 15px;
+
+  /* white-space: pre; */
+
+  /* word-wrap: ; */
+}
+
+img {
+  border: 1px solid red;
+  /* vertical-align: top/middle/bottom; */
+}
+
+#shadow {
+  font-size: 70px;
+  /* text-shadow -> 5px -> horizonatal shadow , verically shadow, blur , color  */
+  text-shadow: 5px 10px 5px red;
+}

@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+}
+
+/* amchor tag  has 4 stages */
+/*
+:link
+:visited  => when you have already visited the state
+:hover -> when you are hivering on that
+:active -> when its active
+*/
+
+/* this is a way to define state in css 
+you should put a:active state ekdun neeche
+
+and if you are using all these states then hover should be placed down
+as link and visited
+*/
+a:link {
+  color: yellowgreen;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
